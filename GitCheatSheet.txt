@@ -20,8 +20,9 @@
 ************************ Using Git in Local Repo ******************************
 ===============================================================================
 1. git --version -> Command displays the currenylt installed Git Version in the PC
-2. git -> Dsplays the common helper commands used in various situations
+2. git -> Displays the common helper commands used in various situations
 3. git init -> Initializes a git repositiry in the current folder and by default it was named as 'origin'. This keeps track of the changes in local and transfer the changes to remote when we commit or push for the first time
 4. git status -> Shows / Keeps track of the working branch with the status
 5. git show -> Shows the changes commited on the current branch, More over like comparison of history of files before and after commit.
-6. git diff -> Show the difference between commits, commit and tree we are working
+6. git diff -> Show the difference between commits, commit and tree we are workings 
+7. git log -> Shows the track of committed logs in the current repository. 
