@@ -1,0 +1,28 @@
+===============================================================================
+************************ Common Linux Commands ********************************
+===============================================================================
+1. ls -> Gives list of all the folders and files residing in the directory
+2. mkdir [directory / folder name] -> Creates new directory
+3. remdir [directory / folder name] -> Removes targetted directory
+4. rm -r [folder name / directory name] -> Removes the folder / directory in the current repository
+5. cd -> Change Directory / moves to the home directory [lets say my computer]
+6. cd [folder name] -> Enters into the folder name mentioned if exists in the current directory
+7. cd [file path] -> Navigates to the mentioned path
+8. cat [file name.extn] -> opens up the file in the command line interface itself
+9. ls -a -> lists the hidden files along with existing files in the directory
+++ Note: Hidden file name begin with '.'
+10. touch [filename.extn] -> Creates file with respect to the extension [lets say 'touch sample.ppt' - Command creates power point presentation file]
+11. vi [filename.extn] -> Opens editior for editing the targetted file in command line interface itself
+++ Note: After editing the file in CLI, to come out of editor press "esc" key + ":" + "x" + "enter" button to save and close the editor.
+
+
+===============================================================================
+************************ Using Git in Local Repo ******************************
+===============================================================================
+1. git --version -> Command displays the currenylt installed Git Version in the PC
+2. git -> Displays the common helper commands used in various situations
+3. git init -> Initializes a git repositiry in the current folder and by default it was named as 'origin'. This keeps track of the changes in local and transfer the changes to remote when we commit or push for the first time
+4. git status -> Shows / Keeps track of the working branch with the status
+5. git show -> Shows the changes commited on the current branch, More over like comparison of history of files before and after commit.
+6. git diff -> Show the difference between commits, commit and tree we are workings 
+7. git log -> Shows the track of committed logs in the current repository. 
